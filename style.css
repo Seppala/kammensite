@@ -1,0 +1,120 @@
+body {
+	background-color: rgb(239,239,230);
+}
+
+.bg {
+	/* Set rules to fill background */
+	min-height: 100%;
+	min-width: 1024px;
+	
+	/* Set up proportionate scaling */
+	width: 100%;
+	height: auto;
+	
+	/* Set up positioning */
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#logo {
+	width: 35px;
+	margin-left:0px;
+}
+
+#logotext {
+	width:250px;
+	margin-left:15px;
+}
+
+.bgimage {
+		z-index:-999;
+}
+
+.graybg {
+	/*background-color: rgba(255,255,255,0.7);*/
+	min-height:100%;
+	height:auto;
+}
+*
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+	img.bg {
+		left: 50%;
+		margin-left: -512px;   /* 50% */
+	}
+}
+
+
+h1 {
+	font-family: 'Jacques Francois', 'Raleway Dots', 'Dosis','Petit Formal Script', cursive;
+	font-size: 4.5em;
+	line-height:1.2em;
+	color: rgba(123,123,123, 0.5);
+	text-shadow: 0px 2px 3px rgb(235,235,235);
+	margin-top: 5%;
+	margin-left:10%;
+}
+
+p {
+	font-family: 'Dosis';
+	
+}
+
+table {
+	font-family:'Dosis';
+}
+
+.textbox {
+	padding:20px;
+	background-color:rgba(255,255,255,0.6);
+
+}
+
+input {
+	width:40%;
+}
+
+#slogan {
+	letter-spacing:0.4em;	
+	margin-bottom:5%;
+	margin-top:5%;
+}
+
+.middle {
+	margin-right:auto;
+	margin-left:auto;
+	width:37%;
+}
+
+.tops {
+	margin-top:12%;
+	background-color: rgba(255,255,255,0.6);
+}
+
+.namebox {
+	margin-top:10%;
+	margin-bottom:10%;
+	width:100px;
+	border-top:1px solid rgb(225,225,225);
+	border-bottom:1px solid rgb(225,225,225);
+}
+
+.namebox table {
+	margin-top:20px;
+	margin-bottom:20px;
+	width:100px;
+}
+
+.mc-field-group label, button {
+	font-family: 'Dosis';
+}
+
+button {
+	font-family: 'Dosis';
+}
+
+#email {
+	margin-top:5%;
+	margin-bottom:5%;
+}
+

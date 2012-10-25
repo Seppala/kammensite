@@ -71,7 +71,7 @@ h1 {
 }
 
 p {
-	font-family: 'Dosis';
+	font-family: 'Source Sans Pro';
 	font-size:16px;	
 }
 
@@ -96,6 +96,7 @@ table {
 
 input {
 	width:40%;
+	min-width:100px;
 }
 
 #slogan {

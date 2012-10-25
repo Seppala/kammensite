@@ -90,6 +90,7 @@ table {
 	margin-right:auto;
 	margin-left:auto;
 	width:70%;
+	min-height:800px;
 
 }
 
@@ -101,7 +102,8 @@ input {
 	font-family:georgia;
 	font-style:italic;
 	font-size:3em;
-	letter-spacing:0.09em;	
+	letter-spacing:0.09em;
+	line-height:1.2em;	
 	margin-bottom:5%;
 	margin-top:5%;
 }

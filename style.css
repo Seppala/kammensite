@@ -1,5 +1,8 @@
 body {
 	background-color: rgb(239,239,230);
+	background-image: url(retina_dust.png); 
+	background-position: initial initial; 
+	background-repeat: initial initial; 
 	height:auto;
 }
 
@@ -117,5 +120,37 @@ button {
 #email {
 	margin-top:5%;
 	margin-bottom:5%;
+}
+
+/*
+Burgundy.html
+*/
+
+.b {
+	min-height:200px;
+}
+
+.b1 {
+	background-color:rgb(92,1,0);
+}
+
+.b2 {
+	background-color:rgb(147,0,58);
+}
+
+.b3 {
+	background-color:rgb(86,1,35);
+}
+
+.b4 {
+	background-color:rgb(134,0,54);
+}
+
+.b5 {
+	background-color: #67151D;
+}
+
+.b6 {
+	background-color: #580000;
 }
 

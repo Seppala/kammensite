@@ -22,13 +22,24 @@ body {
 }
 
 #logo {
-	width: 35px;
-	margin-left:0px;
+ /*margin-top:33%;*/
+ margin: 33% auto 0 auto;
+width:640px;
 }
 
 #logotext {
 	width:250px;
 	margin-left:15px;
+}
+
+#midtext {
+	width:70%;
+	margin:4% auto 0 auto;
+	text-align:center;
+}
+
+#coming {
+	
 }
 
 .bgimage {
@@ -68,9 +79,12 @@ table {
 	font-family:'Dosis';
 }
 
-.textbox {
+.whitebox {
 	padding:20px;
-	background-color:rgba(255,255,255,0.6);
+	background-color:rgba(255,255,255,0.9);
+	margin-right:auto;
+	margin-left:auto;
+	width:70%;
 
 }
 
@@ -79,15 +93,16 @@ input {
 }
 
 #slogan {
-	letter-spacing:0.4em;	
+	font-family:georgia;
+	font-style:italic;
+	font-size:3em;
+	letter-spacing:0.09em;	
 	margin-bottom:5%;
 	margin-top:5%;
 }
 
 .middle {
-	margin-right:auto;
-	margin-left:auto;
-	width:44%;
+	
 }
 
 .tops {

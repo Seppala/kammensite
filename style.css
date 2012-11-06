@@ -91,6 +91,7 @@ table {
 	margin-left:auto;
 	width:70%;
 	min-height:600px;
+	max-width:1024px;
 
 }
 
@@ -132,6 +133,14 @@ input {
 	width:100px;
 }
 
+.button {
+	width:75px;
+}
+
+#mce-EMAIL {
+	width:150px;
+}
+
 .mc-field-group label, button {
 	font-family: 'Dosis';
 }
@@ -150,7 +159,7 @@ Burgundy.html
 */
 
 .b {
-	min-height:200px;
+	min-height:500px;
 }
 
 .b1 {
@@ -166,7 +175,7 @@ Burgundy.html
 }
 
 .b4 {
-	background-color:rgb(134,0,54);
+	background-color:rgb(255,217,40);
 }
 
 .b5 {
